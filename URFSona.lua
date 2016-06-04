@@ -40,7 +40,7 @@ OnTick(function (myHero)
 		end
 
 		if SonaMenu.Combo.E:Value() and Ready(_E) then
-			CastTargetSpell(target, _E)
+			CastSpell(_E)
 		end
 
 		if SonaMenu.Combo.R:Value() and Ready(_R) and ValidTarget(target, 1000) then
