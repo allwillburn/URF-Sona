@@ -43,7 +43,7 @@ OnTick(function (myHero)
 			CastSpell(_E)
 		end
 
-		if SonaMenu.Combo.R:Value() and Ready(_R) and ValidTarget(target, 1000) then
+		if SonaMenu.Combo.R:Value() and Ready(_R) and ValidTarget(target, 900) then
 			CastSkillShot(_R, target)
 		end
 
